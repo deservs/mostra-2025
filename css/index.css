@@ -39,7 +39,7 @@
     line-height: 17vh;
 }
 img{
-    width: 20vw;
+    width: 24vw;
     height: auto;
     margin-top: 15vh;
     right: 18vw;
@@ -70,23 +70,6 @@ a{
 }
 a:last-child{
     font-size: 2em;
-}
-a:hover{
-    animation: hover 2s infinite linear;
-}
-@keyframes hover{
-    0%{
-        border-top: solid 0.3vw blue;
-    }
-    25%{
-        border-right: solid 0.3vw red;
-    }
-    50%{
-        border-bottom: solid 0.3vw yellow;
-    }
-    75%{
-        border-left: solid 0.3vw green;
-    }
 }
 #sala{
     color: #eaeaea;

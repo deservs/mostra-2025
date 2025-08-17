@@ -1,3 +1,4 @@
+-- Active: 1743912631785@@localhost@3306@mostra2025
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -10,9 +11,7 @@ USE mostra2025;
 --tabela para identificar os usuarios da página
 CREATE TABLE IF NOT EXISTS `usuarios` (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL UNIQUE,
-    pontos INT NOT NULL,
-    Foreign Key (pontos) REFERENCES (pontos)
+    nome VARCHAR(100) NOT NULL UNIQUE
 );
 
 --tabela para as perguntas que seão feitas
@@ -20,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `perguntas`(
     id INT AUTO_INCREMENT PRIMARY KEY,
     texto_pergunta VARCHAR(255) NOT NULL,
     filme_associado VARCHAR(100) NOT NULL DEFAULT('Geral'),
-    nivel_dificuldade INT NOT NULL,
+    nivel_dificuldade INT NOT NULL
 );
 
 --tabela para as respostas das perguntas
