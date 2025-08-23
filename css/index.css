@@ -31,7 +31,7 @@ body{
     flex-direction: column;
 }
 main{
-    background-color: /*#8b0000*/ brown;
+    background-color: #8b0000;
     font-family: Franklin;
     height: 75vh;
     width: 95vw;
