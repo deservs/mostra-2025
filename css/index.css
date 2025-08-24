@@ -37,6 +37,7 @@ main{
     width: 95vw;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    margin-top: 2vh;
 }
 #title img{
     height: 20vh;
