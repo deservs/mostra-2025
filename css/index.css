@@ -121,11 +121,11 @@ main {
 }
 
 #detetive img {
-    height: 14.75vh;
+    height: 20vw;
     width: 20vw;
     position: absolute;
     right: 0;
-    top: 10vh;
+    top: 15vh;
     filter: brightness(0);
 }
 
