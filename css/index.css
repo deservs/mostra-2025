@@ -54,10 +54,10 @@ main {
 }
 
 #title img {
-    top: 3vh;
+    top: 4vh;
     height: 20vh;
-    width: 72vw;
-    overflow: 2;
+    width: 70vw;
+    z-index: 1;
     position: absolute;
 }
 
@@ -118,6 +118,7 @@ main {
     height: 12vh;
     width: 25vw;
     position: absolute;
+    z-index: 2;
 }
 
 #detetive img {
